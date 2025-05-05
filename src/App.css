@@ -52,12 +52,27 @@
   text-shadow: 1px 1px 2px red;
 }
 
+/* Estilo para a mensagem acima do player */
 .spotify-frame h2 {
   text-align: center;
   font-family: 'Dancing Script', cursive;
   font-size: 1.8rem;
   line-height: 1.6;
   text-shadow: 1px 1px 3px red;
+  margin-bottom: 15px; /* Espaço entre a mensagem e o player */
 }
 
+/* Centralizar o iframe do Spotify */
+.spotify-frame {
+  display: flex;
+  flex-direction: column; /* Para a mensagem ficar acima do player */
+  align-items: center;
+  margin-top: 30px;
+}
 
+.spotify-frame iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px; /* Opcional, se quiser arredondar as bordas do iframe */
+}

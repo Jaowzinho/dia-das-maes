@@ -154,13 +154,14 @@ const ContagemTempo = () => {
                 </Carousel>
             </div>
 
-            {/* Player do Spotify para a música "Como É Grande O Meu Amor Por Você" */}
+            {/* Player do Spotify para a música "Te Esperando" do Luan Santana */}
+            {/* Player do Spotify para a música "Como É Grande O Meu Amor Por Você" - Roberto Carlos */}
             <div className="spotify-frame">
                 <h2>Música que dedico para você: 🤍</h2>
                 <iframe
                     title="Spotify Music - Como É Grande O Meu Amor Por Você"
                     className="embed-responsive-item"
-                    src="https://open.spotify.com/embed/track/1Kj2S2YdEgXJZp4OQHQ7hM?si=3abf1e0dc08241e6"  // Link correto para a música no Spotify
+                    src="https://open.spotify.com/embed/track/1Kj2S2YdEgXJZp4OQHQ7hM?si=3abf1e0dc08241e6"  // Link da música "Como É Grande O Meu Amor Por Você"
                     width="300"
                     height="380"
                     frameBorder="0"
@@ -168,6 +169,8 @@ const ContagemTempo = () => {
                     allowFullScreen
                 ></iframe>
             </div>
+
+
 
 
 
