@@ -11,7 +11,7 @@ Este projeto é uma pequena homenagem ao Dia das Mães, criado para expressar ca
 ## Funcionalidades
 
 1. **Carrossel de Imagens**: O site apresenta um carrossel com várias imagens dedicadas às mães, com mensagens especiais para cada uma delas.
-2. **Contador de Tempo**: O site exibe um contador que calcula o tempo desde o nascimento da mãe, atualizado em tempo real.
+2. **Contador de Tempo**: O site exibe um contador que calcula o tempo desde o nascimento do filho, atualizado em tempo real.
 3. **Música Especial**: O site toca a música **"Como É Grande O Meu Amor Por Você"** de Roberto Carlos, através do player do Spotify, com uma mensagem dedicada.
 
 ## Como Rodar o Projeto
