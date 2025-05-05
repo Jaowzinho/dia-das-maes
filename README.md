@@ -51,7 +51,7 @@ Este projeto é uma pequena homenagem ao Dia das Mães, criado para expressar ca
     ├── img                         # Imagens usadas no carrossel
     ├── index.html                  # Arquivo HTML de entrada
 
-##Personalização
+##Personalização##
 Imagens: Você pode substituir as imagens do carrossel pelaquelas que quiser, desde que coloque-as na pasta public/img/ e altere os caminhos no código.
 
 Música: Para alterar a música, substitua a URL do Spotify no iframe para o link desejado.
