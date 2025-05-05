@@ -156,7 +156,7 @@ const ContagemTempo = () => {
 
             {/* Player do Spotify para a música "Como É Grande O Meu Amor Por Você" */}
             <div className="spotify-frame">
-                <h2>Nossa música... 🤍</h2>
+                <h2>Música que dedico para você: 🤍</h2>
                 <iframe
                     title="Spotify Music - Como É Grande O Meu Amor Por Você"
                     className="embed-responsive-item"
