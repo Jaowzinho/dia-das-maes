@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Homenagem ao Dia das Mães
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma pequena homenagem ao Dia das Mães, criado para expressar carinho e gratidão. O site contém um carrossel de imagens, um contador de tempo, e uma música especial dedicada às mães.
 
-## Available Scripts
+## Tecnologias Utilizadas
 
-In the project directory, you can run:
+- **React**: Biblioteca JavaScript para construir a interface.
+- **Bootstrap**: Framework CSS para o layout responsivo e componente de carrossel.
+- **Spotify API**: Para integrar a música no site através do player embed.
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Carrossel de Imagens**: O site apresenta um carrossel com várias imagens dedicadas às mães, com mensagens especiais para cada uma delas.
+2. **Contador de Tempo**: O site exibe um contador que calcula o tempo desde o nascimento da mãe, atualizado em tempo real.
+3. **Música Especial**: O site toca a música **"Como É Grande O Meu Amor Por Você"** de Roberto Carlos, através do player do Spotify, com uma mensagem dedicada.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Como Rodar o Projeto
 
-### `npm test`
+### Pré-requisitos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Node.js** e **npm** instalados no seu computador.
 
-### `npm run build`
+### Passos para rodar
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone este repositório para sua máquina local:
+   ```bash
+   git clone https://github.com/SEU-USER/NOME-DO-REPOSITORIO.git
+   
+2. Navegue até a pasta do projeto:
+   cd NOME-DO-REPOSITORIO
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Instale as dependências:
+   npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Para rodar o projeto localmente, use o comando:
+   npm start
+   
+5. Acesse o site em seu navegador:
+   http://localhost:3000
 
-### `npm run eject`
+## Estrutura do Projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+.
+├── src
+│   ├── components
+│   │   ├── ContagemTempo.js        # Componente principal com o carrossel e a música
+│   ├── App.js                      # Componente raiz do React
+│   ├── index.js                    # Ponto de entrada do aplicativo
+│   ├── styles.css                  # Estilos globais
+└── public
+    ├── img                         # Imagens usadas no carrossel
+    ├── index.html                  # Arquivo HTML de entrada
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+##Personalização
+Imagens: Você pode substituir as imagens do carrossel pelaquelas que quiser, desde que coloque-as na pasta public/img/ e altere os caminhos no código.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Música: Para alterar a música, substitua a URL do Spotify no iframe para o link desejado.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Licença
+Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contato
+Criado por João Vitor
