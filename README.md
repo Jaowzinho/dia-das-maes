@@ -38,19 +38,6 @@ Este projeto é uma pequena homenagem ao Dia das Mães, criado para expressar ca
 5. Acesse o site em seu navegador:
    http://localhost:3000
 
-## Estrutura do Projeto
-
-.
-├── src
-│   ├── components
-│   │   ├── ContagemTempo.js        # Componente principal com o carrossel e a música
-│   ├── App.js                      # Componente raiz do React
-│   ├── index.js                    # Ponto de entrada do aplicativo
-│   ├── styles.css                  # Estilos globais
-└── public
-    ├── img                         # Imagens usadas no carrossel
-    ├── index.html                  # Arquivo HTML de entrada
-
 ##Personalização##
 Imagens: Você pode substituir as imagens do carrossel pelaquelas que quiser, desde que coloque-as na pasta public/img/ e altere os caminhos no código.
 
