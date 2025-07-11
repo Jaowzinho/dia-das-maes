@@ -38,7 +38,7 @@ Este projeto é uma pequena homenagem ao Dia das Mães, criado para expressar ca
 5. Acesse o site em seu navegador:
    http://localhost:3000
 
-##Personalização##
+## Personalização
 Imagens: Você pode substituir as imagens do carrossel pelaquelas que quiser, desde que coloque-as na pasta public/img/ e altere os caminhos no código.
 
 Música: Para alterar a música, substitua a URL do Spotify no iframe para o link desejado.
